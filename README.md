@@ -1,0 +1,1 @@
+# MVP do projeto Sinaliza Aqui! para o Manaus Visao Hack Experience

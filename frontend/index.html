@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sinaliza aqui!</title>
+</head>
+<body>
+  <header>
+    <div class="box">
+      <img src="http://www.manaus.am.gov.br/wp-content/uploads/2021/02/Brasao21.png" alt="">
+      <div class="links">
+        <a href="map.html">acompanhamento</a>
+        <a href="servicos.html">serviços realizados</a>
+      </div>
+      <img src="https://immu.manaus.am.gov.br/images/servicoslogo.png" alt="">
+    </div>
+  </header>
+  <div class="box-container">
+    <form class="container" action='POST'>
+      <h1>SOLICITAR SINALIZAÇÃO</h1>
+  
+      <select name="zona" id="zona">
+        <option value="0">Selecione a sua zona</option>
+        <option value="norte">Norte</option>
+        <option value="leste">Leste</option>
+        <option value="oeste">Oeste</option>
+        <option value="sul">Sul</option>
+        <option value="centro_oeste">Centro-Oeste</option>
+        <option value="centro_sul">Centro-Sul</option>
+      </select>
+  
+      <textarea placeholder="Descrição da ocorrência"  name="descricao" id="descricao" ></textarea>
+  
+      <input type="file" name="media" id="media">
+  
+      <a id="enviar" href="map.html">
+        enviar
+      </a>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
